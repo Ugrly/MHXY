@@ -271,33 +271,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AVInit.cs" />
-    <Compile Include="Assets\AVTest.cs" />
-    <Compile Include="Assets\Event.cs" />
-    <Compile Include="Assets\EventController.cs" />
-    <Compile Include="Assets\GameController.cs" />
-    <Compile Include="Assets\IEventListener.cs" />
-    <Compile Include="Assets\MyGame\AsynchronousLoading.cs" />
-    <Compile Include="Assets\MyGame\UI_StartMain.cs" />
-    <Compile Include="Assets\MyLevelManager.cs" />
-    <Compile Include="Assets\open.cs" />
-    <Compile Include="Assets\Scripts\BaseWindows.cs" />
-    <Compile Include="Assets\Scripts\ExcelEPP.cs" />
+    <Compile Include="Assets\greenTest\DataClass.cs" />
+    <Compile Include="Assets\greenTest\GetDataTest.cs" />
+    <Compile Include="Assets\greenTest\TXT.cs" />
+    <Compile Include="Assets\Scripts\Frame\BaseWindows.cs" />
+    <Compile Include="Assets\Scripts\Frame\Event.cs" />
+    <Compile Include="Assets\Scripts\Frame\EventController.cs" />
+    <Compile Include="Assets\Scripts\Frame\IEventListener.cs" />
+    <Compile Include="Assets\Scripts\Tools\AsynchronousLoading.cs" />
+    <Compile Include="Assets\Scripts\Tools\ExcelEPP.cs" />
+    <Compile Include="Assets\Scripts\Tools\UITools.cs" />
     <Compile Include="Assets\Scripts\UI\Capacity\UI_Capacity.cs" />
+    <Compile Include="Assets\Scripts\UI\Common\UI_TextBox.cs" />
+    <Compile Include="Assets\Scripts\UI\Main\UI_Main.cs" />
     <Compile Include="Assets\Scripts\UI\Pet\UI_PetSkillChoose.cs" />
-    <Compile Include="Assets\sss.cs" />
-    <Compile Include="Assets\Tools\DataClass.cs" />
-    <Compile Include="Assets\Tools\GetDataTest.cs" />
-    <Compile Include="Assets\Tools\TXT.cs" />
-    <Compile Include="Assets\UI_ClickTest.cs" />
-    <Compile Include="Assets\UI_Main.cs" />
-    <Compile Include="Assets\UI_Scripts\UI_TextBox.cs" />
-    <Compile Include="Assets\UITools.cs" />
+    <Compile Include="Assets\Scripts\UI\Start\UI_StartMain.cs" />
+    <Compile Include="Assets\test\AVInit.cs" />
+    <Compile Include="Assets\test\AVTest.cs" />
+    <Compile Include="Assets\test\GameController.cs" />
+    <Compile Include="Assets\test\MyLevelManager.cs" />
+    <Compile Include="Assets\test\open.cs" />
+    <Compile Include="Assets\test\sss.cs" />
+    <Compile Include="Assets\test\UI_ClickTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Data_Task.txt" />
     <None Include="Assets\Plugins\link.xml" />
     <None Include="Assets\StreamingAssets\Data_test.txt" />
+    <None Include="Assets\test\Data_Task.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
