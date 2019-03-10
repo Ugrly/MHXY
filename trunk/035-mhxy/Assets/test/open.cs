@@ -14,7 +14,7 @@ public class open : MonoBehaviour {
 
 	
 	void Start () {
-        UITools.Singeton.OpenWindow("UI_Capacity");
+       // UITools.Singeton.OpenWindow("UI_Capacity");
         //Event e = new Event();
         //EventController.sInstance.PushEvent(e);
 	}
